@@ -1,13 +1,13 @@
 @font-face {
   font-family: finkHeavy;
-  src: url(FinkHeavy.ttf);
+  src: url(fonts/FinkHeavy.ttf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: doomFont;
-  src: url(AmazDooMLeft.ttf);
-  font-weight: normal;
+  src: url(fonts/AmazDooMLeft.ttf);
+  font-weight: bold;
 }
 
 html {
@@ -50,7 +50,7 @@ footer {
   text-align: center;
   margin-bottom: 0px;
   height: 50px;
-  background: url(footer.png) no-repeat center;
+  background: url(images/footer.png) no-repeat center;
 }
 
 footer p {
@@ -84,7 +84,7 @@ div {
   height: 225px;
   margin: auto;
   text-align: center;
-  background: url(dialogue.png) no-repeat center;
+  background: url(images/dialogue.png) no-repeat center;
   /* background: red; */
 }
 
